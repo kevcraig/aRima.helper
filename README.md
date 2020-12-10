@@ -13,3 +13,18 @@ difference terms as well as dummy & Fourier terms. Stationarity test,
 model convergence, fit statistics, ACF & PACF plots, residual plots, and
 white noise plots all provided. This package heavily uses the ‘forecast’
 package by Rob Hyndman.
+
+## Install
+
+To install from github
+
+``` r
+install.packages("devtools")
+devtools::install_github("kevcraig/aRima.helper")
+```
+
+To load once installed
+
+``` r
+library(aRima.helper)
+```
