@@ -40,7 +40,7 @@ By default, the aRima_helper function will return a local shiny app based on the
 ### Non-seasonal time-series
 The most simple case. If a time-series object with no frequency is provided, a non-seasonal shiny app will be returned with inputs for AR, MA, and difference terms.
 
-Example withW `WWusage` from `datasets` 
+Example with `WWWusage` from `datasets` 
 ```{r, eval=FALSE, message=FALSE}
 library(aRima.helper)
 aRima_helper(WWWusage)
