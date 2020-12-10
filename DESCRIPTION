@@ -1,5 +1,5 @@
 Package: aRima.helper
-Title: Make ARIMA modeling easier through interactive user interface
+Title: Make ARIMA modeling easier through an interactive user interface
 Version: 0.1
 Authors@R: 
     person(given = "Kevin",
