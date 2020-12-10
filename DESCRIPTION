@@ -18,3 +18,5 @@ RoxygenNote: 7.1.1
 Imports: 
     shiny (>= 1.4.0.2),
     forecast (>= 8.12)
+URL: https://github.com/kevcraig/aRima.helper
+BugReports: https://github.com/kevcraig/aRima.helper/issues
