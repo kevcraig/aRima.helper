@@ -8,7 +8,7 @@
 <!-- badges: end -->
 
 Simplifies ARIMA modeling by providing a user interface and immediate
-results. User can specify non-seasonal and or/seasonal AR, MA, and
+results. User can specify non-seasonal and/or seasonal AR, MA, and
 difference terms as well as dummy & Fourier terms. Stationarity test,
 model convergence, fit statistics, ACF & PACF plots, residual plots, and
 white noise plots all provided. This package heavily uses the ‘forecast’
