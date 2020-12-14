@@ -136,7 +136,7 @@ aRima_helper <- function(time_series_object){
 
       ### outputs
       shiny::fluidRow(shiny::column(3, offset = 0,
-                             shiny::span(shiny::htmlOutput("converge"), style="color:red"),
+                             shiny::span(shiny::htmlOutput("converge")),
                              shiny::span(shiny::htmlOutput("stationary"), style="color:red")),
                       shiny::column(4, offset = 1, align = 'center', shiny::HTML('<h3> Diagnostics </h3>')),
                       shiny::column(4, offset = 0,  shiny::htmlOutput('form'))),
@@ -331,7 +331,7 @@ aRima_helper <- function(time_series_object){
 
       ### outputs
       shiny::fluidRow(shiny::column(3, offset = 0,
-                                    shiny::span(shiny::htmlOutput("converge"), style="color:red"),
+                                    shiny::span(shiny::htmlOutput("converge")),
                                     shiny::span(shiny::htmlOutput("stationary"), style="color:red")),
                       shiny::column(4, offset = 1, align = 'center', shiny::HTML('<h3> Diagnostics </h3>')),
                       shiny::column(4, offset = 0,  shiny::htmlOutput('form'))),
@@ -353,4 +353,3 @@ aRima_helper <- function(time_series_object){
 
   }
 }
-
